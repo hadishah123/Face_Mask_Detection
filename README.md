@@ -98,9 +98,11 @@ python train_model.py
 python detect_mask.py
 ```
 Uses webcam or video feed, Detects faces in real-time
-* Displays:
+
+**Displays:**
 * Green box → Mask detected
 * Red box → No mask detected
+* Press **ESC** to quit
 
 🖼️ Example Output
 ```bash
