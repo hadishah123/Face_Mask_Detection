@@ -38,7 +38,7 @@ Face_Mask_Detection/
 **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/hadishah/Face_Mask_Detection.git
+git clone https://github.com/hadishah123/Face_Mask_Detection.git
 ```
 
 **2️⃣ Create a Virtual Environment (Recommended)**
