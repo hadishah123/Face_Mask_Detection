@@ -1,8 +1,22 @@
 # 😷 Face Mask Detection
 
-**A Python project to detect face masks using deep learning with TensorFlow and OpenCV.**
 
----
+A computer vision project that detects whether a person is wearing a face mask or not using machine learning and image processing techniques.
+
+## 📌 Features
+- Detects **face with mask** and **face without mask**
+- Uses **computer vision & deep learning**
+- Real-time detection (if webcam enabled)
+- Easy to train and test
+
+
+## 🛠️ Tech Stack
+- Python
+- OpenCV
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+
 
 ## 📁 Project Structure
 ```bash
@@ -18,14 +32,13 @@ Face_Mask_Detection/
 └── README.md
 ```
 
----
 
 ## ⚙️ Setup Instructions
 
 **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/sofialtamsh/Face_Mask_Detection.git
+git clone https://github.com/hadishah/Face_Mask_Detection.git
 ```
 
 **2️⃣ Create a Virtual Environment (Recommended)**
@@ -48,39 +61,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-
-📊 Dataset Format
-
-Ensure your dataset is structured as follows:
-```bash
-dataset/
-├── with_mask/
-│   ├── img1.jpg
-│   ├── img2.jpg
-│   └── ...
-└── without_mask/
-    ├── img1.jpg
-    ├── img2.jpg
-    └── ...
-```
-
-Guidelines:
-- Images should be clear and front-facing when possible
-- Supported formats: .jpg, .png
-- Balanced classes improve model accuracy
-
-
-## 🧠 Model Architecture
-
-- Convolutional Neural Network (CNN)
-- Image preprocessing using OpenCV
-- Binary classification:
-- With Mask
-- Without Mask
-- Trained using TensorFlow/Keras
-- Model saved in the model/ directory after training
-
 
 ## 🚀 Usage
 **🔹 1. Train the Model**
@@ -115,6 +95,37 @@ On-screen:
 - Label: Mask / No Mask
 - Confidence percentage
 
+## 📊 Dataset Format
+
+Ensure your dataset is structured as follows:
+```bash
+dataset/
+├── with_mask/
+│   ├── img1.jpg
+│   ├── img2.jpg
+│   └── ...
+└── without_mask/
+    ├── img1.jpg
+    ├── img2.jpg
+    └── ...
+```
+
+Guidelines:
+- Images should be clear and front-facing when possible
+- Supported formats: .jpg, .png
+- Balanced classes improve model accuracy
+
+
+## 🧠 Model Architecture
+
+- Convolutional Neural Network (CNN)
+- Image preprocessing using OpenCV
+- Binary classification:
+- With Mask
+- Without Mask
+- Trained using TensorFlow/Keras
+- Model saved in the model/ directory after training
+
 ## 📦 Dependencies
 ```bash
 TensorFlow
@@ -136,4 +147,4 @@ Pull requests are welcome!
 For major changes, please open an issue first to discuss what you’d like to change.
 
 ## 🪪 License
-MIT License © 2025 [Sofi Altamsh](https://github.com/sofialtamsh)
+MIT License © 2025 [Hadi Shah](https://github.com/hadishah123)
